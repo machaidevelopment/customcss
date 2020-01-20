@@ -413,6 +413,9 @@ footer .copy {
 }
 
 
+
+/* For Customizing woocommerce button on the shop table cart   */
+
 .tve-woocommerce .woocommerce .button {
   background-color: #fff;
   border: 2px solid #330066;
@@ -426,15 +429,25 @@ footer .copy {
   margin-right: 40px;
 }
 
+
+/* For Customizing woocommerce table shop table cart   */
+
 .tve-woocommerce .bSe .awr .woocommerce table.shop_table.cart tbody tr td.actions .coupon {
   display: contents;
   float: left;
 }
 
+
+/* For Customizing woocommerce table shop table cart   */
+
 .tve-woocommerce .bSe .awr .woocommerce table.shop_table.cart thead tr th {
   border: none;
   color: #fff;
 }
+
+
+/* For Customizing woocommerce table shop table body cart   */
+
 
 .tve-woocommerce .bSe .awr .woocommerce table.shop_table.cart tbody tr.cart_item td.product-name a {
   color: #330066;
@@ -444,22 +457,38 @@ footer .copy {
   line-height: 17px;
 }
 
+
+
+/* For Customizing woocommerce  shop table cart   */
+
 .tve-woocommerce .bSe .awr .woocommerce table.shop_table.cart tbody tr.cart_item td.product-name {
   padding-bottom: 37px;
 }
+
+
+/* For Customizing the cart image and items*/
 
 ul.cart-dropdown>li ul li .item-left img {
   width: 50px;
   display: none;
 }
 
+
+
+/* Removes anything with plus class*/
+
 .plus {
   display: none;
 }
 
+
+/* Removes anything with minus class*/
+
 .minus {
   display: none;
 }
+
+/* Drop down Cart customization */
 
 ul.cart-dropdown>li ul li .item-left span.item-info {
   margin-left: 10px;
@@ -478,6 +507,9 @@ div.wrp:nth-child(3) {
   padding: 0;
 }
 
+
+
+/* media Query for fixing responsiveness on a standard laptop  screen */
 
 @media screen and (max-width: 1024px) {
   div.thrv-page-section:nth-child(2) {
@@ -524,6 +556,7 @@ display: none !important;
   font-size: 20px !important;
   line-height: 30px !important;
 }
+
 }
 
 /* Progress Bar Margin fix qizz scroll */
