@@ -1,9 +1,9 @@
+/*space between header and slider*/	
 .bspr {
   height: 0px;
 }
 
-
-
+/*Changes top section of the footer*/
 footer .fmn ul li a {
   color: #ffffff;
   font-size: 14px;
@@ -11,11 +11,13 @@ footer .fmn ul li a {
   padding: 10px;
 }
 
+/*Article layouts*/
 .single-post article {
   color: #383838;
   margin-top: 140px;
 }
 
+/*Cart empty buttton, top right of page*/
 .cart-contents-btn, ul.cart-dropdown>li>a {
   color: #636363;
   font-size: 16px;
@@ -28,17 +30,20 @@ footer .fmn ul li a {
   text-transform: uppercase;
 }
 
+/*Changes top section of the menu*/
 .menu {
   text-transform: uppercase;
   margin-top: 20px;
 }
 
+/*Featured skills grid layout*/
 #tve_editor [data-css="tve-u-1651dfd74cf"] .tve-post-grid-text, #tve_editor [data-css="tve-u-1651dfd74cf"] .tve-post-grid-title {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   padding-top: 50px;
 }
 
+/*Featured skills grid layout*/
 .thrv_post_grid .tve_pg_row .tve_post .tve_pg_container {
   margin: 0 5px 0 0;
   min-height: 240px;
