@@ -184,6 +184,7 @@ footer .fmn ul li a {
 }
 
 /*Caldera forms buttons*/
+
 .caldera-grid .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -206,6 +207,7 @@ footer .fmn ul li a {
 }
 
 /* For Customizing woocommerce product layout */
+
 .tve-woocommerce .product .product_meta {
   color: #000000 !important;
   font-size: 12px;
