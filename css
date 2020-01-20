@@ -205,27 +205,31 @@ footer .fmn ul li a {
   user-select: none;
 }
 
+/*??????????????????????????????????????????????????????????????????????????????????*/
 .tve-woocommerce .product .product_meta {
   color: #000000 !important;
   font-size: 12px;
   text-transform: uppercase;
 }
 
+/*??????????????????????????????????????????????????????????????????????????????????*/
 .woocommerce #exmain-content .we-navigation {
   width: 856px;
   height: 40px;
   margin-bottom: 40px;
 }
 
+/*??????????????????????????????????????????????????????????????????????????????????*/
 .woocommerce-product-gallery__trigger {
   display: none;
 }
-
+/*Edits the price in the original WooCommerce page*/
 .tve-woocommerce .product .summary.entry-summary .price>span.amount {
   color: #4e4e4e;
   font-size: 26px;
 }
 
+/*??????????????????????????????????????????????????????????????????????????????????*/
 .we-grid-shortcode figure.ex-modern-blog {
   color: #fff;
   position: relative;
@@ -239,6 +243,7 @@ footer .fmn ul li a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
+/*Edits the box on the bottom of original woocommerce page*/
 body.woocommerce-page .related, body.woocommerce div.product .woocommerce-tabs {
   width: auto;
   display: block;
@@ -248,12 +253,14 @@ body.woocommerce-page .related, body.woocommerce div.product .woocommerce-tabs {
   background: #fff;
 }
 
+/*Changes the spacing around the logo in menu*/
 .wrp {
   margin: 0 auto;
   padding: 0px 10px;
   width: auto;
 }
 
+/*Edits the main picture on original WooCommerce page*/
 .tve-woocommerce .product .images {
   float: left;
   padding-right: 22px;
@@ -261,12 +268,13 @@ body.woocommerce-page .related, body.woocommerce div.product .woocommerce-tabs {
   box-sizing: border-box;
 }
 
+/*??????????????????????????????????????????????????????????????????????????????????*/
 .body.woocommerce div.product form.cart div.quantity {
   margin-right: 10px;
   margin-bottom: 0px;
 }
 
-
+/*Edits the main content block*/
 .single-product.woocommerce #content div.product div.summary {
   width: 55%;
   background: #fff;
@@ -275,6 +283,7 @@ body.woocommerce-page .related, body.woocommerce div.product .woocommerce-tabs {
   margin-bottom: 30px;
 }
 
+/*Woo Events*/
 .woo-event-schedu {
   float: left;
   width: 100%;
@@ -285,26 +294,31 @@ body.woocommerce-page .related, body.woocommerce div.product .woocommerce-tabs {
   background: #fff;
 }
 
+/*Caldera from control - compatibility*/
 .caldera-grid .form-control:-webkit-input-placeholder {
   color: #000;
 }
 
+/*Caldera from control - compatibility*/
 .caldera-grid .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #000;
 }
 
+/*Caldera from control - compatibility*/
 .caldera-grid .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #000;
 }
 
+/*Changes Header spacing*/
 header #head_wrp {
   display: inline-block;
   vertical-align: bottom;
   width: 85%;
 }
 
+/*Changes Menu header*/
 #floating_menu {
   width: 100%;
   z-index: 101;
@@ -314,28 +328,34 @@ header #head_wrp {
   position: fixed;
 }
 
+/*Edits Proceed button in Original WooCommerce*/
 .single-product.woocommerce div.product .summary form.cart button[type="submit"] {
   padding: 13px 15px;
   background: #330170 !important;
 }
 
+/*Edits plus and minus buttons in Original WooCommerce*/
 .woocommerce div.product form.cart div.quantity.buttons_added [type="button"] {
   background: #330170 !important;
 }
 
+/*Caldera from control - compatibility*/
 .caldera-grid .form-control:-ms-input-placeholder {
   color: #000;
 }
 
+/*Woo Events*/
 .we-icl-import .btn {
   background: #330170 !important;
 }
 
+/*Edits footer*/
 footer .fmn {
   background: #3A3A3A;
   padding: 20px 0px;
   text-transform: uppercase;
 }
+
 
 .copy .cnt p {
   font-size: 12px !important;
@@ -356,6 +376,8 @@ footer .copy {
   margin-top: 100px;
 }
 
+
+/* media Query for fixing responsiveness on big screens eg 21 inch flat screen */
 @media (min-width: 1200px) {
   .container {
       width: 1170px;
@@ -363,6 +385,7 @@ footer .copy {
   }
 }
 
+/* media Query for fixing  responsiveness on screens of a standard laptop */
 @media (min-width: 992px) {
   .container {
       width: 970px;
@@ -370,6 +393,7 @@ footer .copy {
   }
 }
 
+/* media Query for fixing responsiveness on mobile devices */
 @media (min-width: 768px) {
   .container {
       width: 750px;
@@ -388,11 +412,6 @@ footer .copy {
   }
 }
 
-/* .page-id-167 .tve_flt {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .tve-woocommerce .woocommerce .button {
   background-color: #fff;
@@ -505,10 +524,6 @@ display: none !important;
   font-size: 20px !important;
   line-height: 30px !important;
 }
-
-
-
-
 }
 
 /* Progress Bar Margin fix qizz scroll */
