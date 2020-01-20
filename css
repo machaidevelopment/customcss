@@ -55,6 +55,7 @@
   color: #383838;
 }
 
+/*makes the Menu layout full and fixed when scrolling */
 
 #floating_menu {
   width: 100%;
@@ -65,12 +66,16 @@
   position: fixed;
 }
 
+/*Thrive Builder Class for customizing window width*/
+
 
 .thrv_wrapper.tcb-window-width {
   position: relative;
   max-width: none !important;
   margin-top: 80px;
 }
+
+/* class for customizing the website's container */
 
 .container {
   margin-right: auto;
@@ -80,6 +85,9 @@
   margin-top: 100px;
 }
 
+
+/* media Query for fixing responsiveness on big screens eg 21 inch flat screen */
+
 @media (min-width: 1200px) {
   .container {
       width: 1170px;
@@ -87,12 +95,18 @@
   }
 }
 
+
+/* media Query for fixing  responsiveness on screens of a standard laptop */
+
 @media (min-width: 992px) {
   .container {
       width: 970px;
       margin-top: 116px;
   }
 }
+
+/* media Query for fixing responsiveness on mobile devices */
+
 
 @media (min-width: 768px) {
   .container {
@@ -117,6 +131,10 @@
   margin-left: auto;
   margin-right: auto;
 } */
+
+
+
+/* for customizing woocommerce table text */
 
 
 .woocommerce table.shop_table td.product-name span {
