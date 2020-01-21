@@ -1,5 +1,5 @@
 
-//WOOCOMMERCE
+/* /// WOOCOMMERCE section ///  */
 
 /* for customizing woocommerce table text */
 .woocommerce table.shop_table td.product-name span {
@@ -301,14 +301,18 @@ color:
 /* End Of Cart Selection Form */
 
 
-// END OF WOOCOMMERCE
+
+
+/* /// END OF WOOCOMMERCE  section ///  */
 
 
 
 
 
+/* // Article Sectons   */
 
-// Article
+
+
 
 /*Article layouts*/
 .single-post article {
@@ -321,14 +325,13 @@ color:
   text-decoration: none;
 }
 
-// Article
+/* // End of Article Sectons   */
 
 
 
+/* // //Media Query  */
 
 
-
-//Media Query
 
 /* media Query for fixing responsiveness on big screens eg 21 inch flat screen */
 
@@ -414,12 +417,16 @@ color:
   }
 }
 
-//Media Query
+
+/* //Media Queries  */
+
+
+/* //Media Query  */
 
 
 
+/* //CALDERA FORMS  */
 
-//CALDERA FORMS
 
 /*Changes design in forms - PC*/
 .caldera-grid label {
@@ -487,12 +494,17 @@ color:
   color: #000;
 }
 
-// Caldera forms
+
+
+
+/* //  End Of Caldera forms */
 
 
 
 
-//Quizz Fixes
+/* //Quizz Fixes */ 
+
+
 
 /* Quizz question description colour change */
 
@@ -517,7 +529,10 @@ margin: 120px 0px 66px !important;
 
 }
 
-//Quizz Fixes
+
+/* // End Of Quizz Fixes */ 
+
+
 
 
 
@@ -592,9 +607,6 @@ footer .copy {
 
 
 
-
-
-
 /*Featured skills grid layout*/
 #tve_editor [data-css="tve-u-1651dfd74cf"] .tve-post-grid-text, #tve_editor [data-css="tve-u-1651dfd74cf"] .tve-post-grid-title {
   color: rgb(255, 255, 255);
@@ -639,17 +651,6 @@ footer .copy {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*Edits on Copy Class P tags*/
 .copy .cnt p {
   font-size: 12px !important;
@@ -687,20 +688,10 @@ div.wrp:nth-child(3) {
 
 
 
-
-
-
-
-
-
-
 /* Responsive For Small Screen Sizes from 480px and below  */
 
 @media (max-width: 480px) {
 
   
-
-
-
 
 
