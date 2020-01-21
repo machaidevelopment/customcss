@@ -359,11 +359,15 @@ footer .fmn {
   text-transform: uppercase;
 }
 
-
+/*Edits on Copy Class P tags*/
 .copy .cnt p {
   font-size: 12px !important;
   color: #fff !important;
 }
+
+
+/*Edits footer*/
+
 
 footer .copy {
   background: #3a3a3a;
@@ -550,6 +554,10 @@ color: rgb(15, 125, 190) !important;
 display: none !important;
 }
 
+
+
+/* Responsive For Small Screen Sizes from 480px and below  */
+
 @media (max-width: 480px) {
 
   
@@ -559,8 +567,44 @@ display: none !important;
   font-size: 20px !important;
   line-height: 30px !important;
 }
+	
+  
+/* Responsive Cart Section Customization  */
+
+.woocommerce-page table.shop_table td::before {
+    top: 30% !important;
+    margin-top: -10px !important;
+    text-align: left!important;
+}
+
+.woocommerce-page table.shop_table td {
+    border-bottom: 1px solid #EEEEEE;
+    padding-left: 3% !important;
+    padding-right: 10px;
+}
+
+
+.woocommerce-page table.shop_table td::before {
+    position: relative !Important;
+    top: 6px;
+    left: 6px;
+    width: 25%;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.woocommerce table.shop_table .product-price, .woocommerce table.shop_table .product-quantity, .woocommerce table.shop_table .product-subtotal {
+    text-align: left !important;
+    white-space: nowrap;
+}
+	
+	/*End  Responsive Cart Section Customization */
+
+
 
 }
+
+
 
 /* Progress Bar Margin fix qizz scroll */
 
@@ -568,3 +612,71 @@ display: none !important;
 margin: 120px 0px 66px !important;
 
 }
+
+
+/* woocommerce  Cart Selection Form */
+
+
+.tve-woocommerce .quantity input[type="number"].input-text.qty.text {
+    border: 1px solid 
+#ececec;
+color:
+    #5a5a5a;
+    float: left;
+    font-size: 19px;
+    font-weight: 600;
+    height: 47px !important;
+    padding: 0;
+    text-align: center;
+    width: 54px;
+    border-radius: 10px;
+}
+
+
+
+.omni-variations .omni-variation select {
+    width: 100%;
+    height: 50px !important;
+    border-radius: 10px;
+}
+
+
+.omni-variations .single_add_to_cart_button {
+    background: 
+rgb(2, 150, 26) !important;
+    background-color: rgb(2, 150, 26);
+border: 2px solid
+rgb(255, 255, 255);
+border-radius: 15px;
+font: Roboto;
+font-size: 20px !important;
+text-transform: uppercase !important;
+color:
+    #fff;
+    padding: 12px !important;
+    margin-top: 1em;
+    float: center;
+    width: 78% !important;
+}
+
+
+
+.cart_price.wdr_product_strikeout {
+    display: none;
+}
+
+
+
+/* End Of Cart Selection Form */
+
+
+
+
+
+
+
+
+
+
+
+
